@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    font-family: porsche-next, sans-serif;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: porsche;
+    src: url(fonts/911/911porschav3.ttf);
+}
+
+@font-face {
+    font-family: porsche-next;
+    src: url(fonts/porsche-next/PorscheNext-Regular.otf);
+}
+
+nav {
+    position: absolute;
+    width: 95%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+nav h1 {
+    text-transform: uppercase;
+    font-family: porsche;
+    color: red;
+    font-size: 32px;
+}
+
+nav .right {
+    display: flex;
+    align-items: center;
+}
+
+nav .right p {
+    padding: 0 10px;
+    color: white;
+    font-size: 17px;
+    font-family: porsche;
+    cursor: pointer;
+}
+
+div.homepage {
+    position: relative;
+}
+
+div.text {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    color: white;
+    text-align: center;
+}
+
+div.main-video {
+    overflow: hidden;
+}
+
+div.text h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+div.text h3 {
+    text-align: initial;
+    font-size: 23px;
+    font-weight: 200;
+}
+
+div.text span {
+    color: red;
+}
